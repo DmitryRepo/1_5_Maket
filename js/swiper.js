@@ -5,7 +5,7 @@ const enableSwiper = function() {
  mySlider = new Swiper(slider, {
    slidesPerView: 1.2,
    spaceBetween: 16,
-   slidesPerGroup: 1,
+   slidesPerGroup:1,
    slidesOffsetBefore:40,
    loop: true,
    centeredSlides: false,
