@@ -164,10 +164,7 @@
   } 
   .cards-button {
     display: block;
-  }
-  .cards-button:onclick {
-    display: block;
-    transition: height 1s ease-in-out 2s;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 1120px) {
@@ -182,7 +179,7 @@
   } 
   .swiper-wrapper--open{
     display: flex;
-    height: 16rem;
+    height: 17rem;
     flex-wrap: wrap;
     padding-bottom:0;
     margin-left: 1.5rem;

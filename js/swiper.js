@@ -13,19 +13,28 @@ const enableSwiper = function() {
     0:{
           slidesPerView: 1.2,
           slidesPerGroup: 1,
+          slidesOffsetBefore:40,
           pagination: {
               el: '.swiper-pagination',
               clickable: true,
-           }
+           },
    },
-  540:{
-      slidesPerView: 3,
-      slidesPerGroup: 1,
-      spaceBetween: 32,
+   375:{
+    slidesPerView: 2,
+    slidesPerGroup: 1,
+    centeredSlides: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   },
+ },
+    425:{
+      slidesPerView: 2,
+      slidesPerGroup: 1, 
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-     }
+     },
    },
   }
  });
