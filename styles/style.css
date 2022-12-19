@@ -131,6 +131,10 @@
 .image-pointer {
   margin-right: 1rem;
 }
+.image-pointer--rotate{
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
 
 /* Media -------------------------------- */
 @media (min-width: 768px) {
