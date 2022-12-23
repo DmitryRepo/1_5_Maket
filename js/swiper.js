@@ -17,24 +17,16 @@ const enableSwiper = function() {
           pagination: {
               el: '.swiper-pagination',
               clickable: true,
-           },
+           }
    },
-   375:{
-    slidesPerView: 2,
-    slidesPerGroup: 1,
-    centeredSlides: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-   },
- },
     425:{
       slidesPerView: 2,
       slidesPerGroup: 1, 
+      centeredSlides: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-     },
+     }
    },
   }
  });
